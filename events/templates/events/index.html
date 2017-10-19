@@ -1,0 +1,30 @@
+{% extends 'events/base.html' %}
+
+{% block body %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-lg-12 my-section">
+      {% for event in object_list %}
+        <div class="col-sm-4 col-lg-4">
+          <div class="thumbnail">
+              <a href="{% url 'events:detail' event.id %}">
+                  <img src="{{ event.event_image.url }}" class="img-responsive my-img-resp">
+              </a>
+              <div class="caption">
+                  <h2>{{ event.event_category }}</h2>
+                  <span>{{ event.event_description }}</span>
+                  <br>
+                  <!-- View Details -->
+                  <a
+                    href="{% url 'events:detail' event.id %}"
+                    class="btn btn-warning btn-sm"
+                    role="button"
+                  >View Details</a>
+              </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

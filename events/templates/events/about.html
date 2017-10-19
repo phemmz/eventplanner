@@ -1,0 +1,26 @@
+{% extends 'events/base.html' %}
+{% block title %}About{% endblock %}
+
+{% block body %}
+  <div class="container about-ptn">
+    <div class="row">
+      <div class="col-sm-offset-3 col-sm-6">
+        <div class="thumbnail my-about">
+          <h3 class="right">
+          {% block about_title %}
+            About Us
+          {% endblock%}
+          </h3>
+          <br>
+          <h5>
+          {% block about_content %}
+          PricioX professional is an organization that provides services in event planning, hair dressing and textile design.
+          Priciox professional is full of enthusiasm, creativity and has an experience of over 15 years.
+          Priciox spelicialise in european & afro-carribean hair such as ghana braids, didi, dreadlocks, single plaits, pick and drop, twisting and treatment of hair
+          {% endblock %}
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
