@@ -1,0 +1,54 @@
+body {
+  background: white url("images/eventbackground.jpeg");
+}
+
+.navbar-static-top {
+  margin-top: 30px;
+}
+
+.my-nav {
+  color: #eac085 !important;
+}
+
+.my-section {
+  margin-top: 30px;
+}
+
+.my-img-resp {
+  width: 500px;
+  height: 400px;
+}
+
+.navbar-brand {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  font-size: 33px;
+}
+
+.my-about {
+  opacity: 0.8;
+}
+
+.about-ptn {
+  margin-top: 35px;
+}
+
+h2, h5, span {
+  font-family: 'Cinzel', serif;
+}
+
+h5, span {
+  text-transform: capitalize;
+}
+
+.detail-img {
+  height: 70% !important;
+  width: 100% !important;
+}
+
+.detail-box {
+  width: 70vw;
+}
