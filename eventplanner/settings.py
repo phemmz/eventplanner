@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'eventplanner.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'eventplanner',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': 'cbtwfatk',
+        'USER': 'cbtwfatk',
+        'PASSWORD': '7ZQi2H-YAsKhJOTgMpImT5Z6edevAMPK',
+        'HOST': 'elmer.db.elephantsql.com',
         'PORT': '5432',
     }
 }
